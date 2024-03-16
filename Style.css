@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#gameWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#gameContainer {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    background-color: #e5e5e5;
+    overflow: hidden;
+}
+
+#dino, #obstacle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+#dino {
+    background-color: #000;
+}
+
+#obstacle {
+    right: 0;
+    background-color: red;
+}
